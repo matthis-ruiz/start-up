@@ -1,0 +1,56 @@
+/* Couleurs */
+body {
+  background-color: #F7F7F7;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #222;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #000;
+}
+
+/* Produits */
+.produit {
+  border: 1px solid #DDD;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.produit-image {
+  margin-bottom: 10px;
+}
+
+.produit-image img {
+  max-width: 100%;
+}
+
+.produit-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.produit-price {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.produit-description {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.produit-button {
+  display: inline-block;
+  background-color: #333;
+  color: #FFF;
+  padding: 10px 20px;
+  border-radius: 5px;

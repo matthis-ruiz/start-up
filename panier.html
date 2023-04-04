@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Panier SmokeBAN</title>
+        <link rel="stylesheet" href="stylepanier.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+    </head>
+
+    <body >
+
+        <div class="container flex">
+            <div class="structure">
+              <h1>Panier <i class="fas fa-shopping-cart"></i></h1>
+          
+              <table id="table">
+                <thead>
+                  <tr>
+                    <th>Cendrier Aspirant</th>
+                   
+                    <th>Quantité</th>
+                    <th>Prix unitaire</th>
+                    <th>Sous-total</th>
+                   
+                  </tr>
+                </thead>
+                <tbody id="all_products">
+                  <tr> 
+                    <td class="article--name"><div style="margin-right:1rem"><img src="image/cendrier.jpg">
+                  
+                      
+                      <td class="quantity"> 
+                        <button class="qty-minus" id="1">-</button>
+                        <input type="text" readonly placeholder="Unit price"  class="qty" value="1" >
+                        <button class="qty-plus" id="1">+</button>
+                      </td>
+                      <td class="price"> 29,99$</td> 
+                      <td class="subtotal">31,99$</td>
+                  </tr>
+                 
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td><input type="text" id="name_product" placeholder="Nom de l'article" contenteditable></td>
+                    <td><input  type="number" step="1" id="price_product" value="1000" contenteditable></td>
+                    <td></td>
+            
+                    <td><button type="button" id="add_button">Ajouter un article</button></td>
+                  </tr>
+                </tfoot>
+              </table>
+              <h2>Total : <span id="total_display">31,99$</span></h2>
+            </div>
+          </div>
+
+    
+          </script>
+        
+    </body>
+  
+</html>

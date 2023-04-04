@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link rel="stylesheet" href="stylepageproduit.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Produits</title>
+  <style>
+    /* styles pour les conteneurs */
+    .produit {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .produit-image {
+      flex: 1;
+    }
+    .produit-image img {
+      max-width: 100%;
+      height: auto;
+    }
+    .produit-description {
+      flex: 1;
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    .produit-titre {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0;
+    }
+    .produit-prix {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .produit-description p {
+      font-size: 16px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="produit">
+    <div class="produit-image">
+      <img src="image/cendrier.jpg" alt="Cendrier Aspirant">
+    </div>
+    <div class="produit-description">
+      <h2 class="produit-titre">Cendrier Aspirant</h2>
+      <p class="produit-prix">19,99 €</p>
+      <p></p>
+      <button>Ajouter au panier</button>
+    </div>
+  </div>
+
+  <div class="produit">
+    <div class="produit-image">
+      <img src="image/purificateur.jpg" alt="Purificateur d'air">
+    </div>
+    <div class="produit-description">
+      <h2 class="produit-titre">Purificateur d'air</h2>
+      <p class="produit-prix">19,99 €</p>
+      <p></p>
+      <button>Ajouter au panier</button>
+    </div>
+  </div>
+
+  <div class="produit">
+    <div class="produit-image">
+      <img src="image/cendrier2.jpg" alt="Le Pack">
+    </div>
+    <div class="produit-description">
+      <h2 class="produit-titre">Le Pack</h2>
+      <p class="produit-prix">19,99 €</p>
+      <p>
+      </p>
+      <button>Ajouter au panier</button>
+    </div>
+  </div>
+</body>
+  
